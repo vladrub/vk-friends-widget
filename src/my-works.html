@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>vk-friends-widget</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/vkFriendsWidget.css" rel="stylesheet" />
+    <link href="css/jquery.jscrollpane.css" rel="stylesheet" />
+
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body class="my-works">
+
+<div id="vkFriendsWidget"></div>
+
+<script type="text/template" id="vkFriendsWidgetTemplate">
+    <div class="vk-friends-widget">
+        <form>
+            <label>
+                Найти друга:
+                <input type="text" placeholder="" class="search">
+            </label>
+        </form>
+
+        <div class="scroll-pane">
+            <div class="friends"></div>
+        </div>
+    </div>
+</script>
+
+<script src="//vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+
+<script src="js/vendors/jquery-2.1.0.min.js"></script>
+<script src="js/vendors/isotope.pkgd.min.js"></script>
+<script src="js/vendors/mwheelIntent.js"></script>
+<script src="js/vendors/jquery.mousewheel.js"></script>
+<script src="js/vendors/jquery.jscrollpane.min.js"></script>
+<script src="js/vendors/imagesloaded.pkgd.min.js"></script>
+
+<script src="js/vendors/underscore-min.js"></script>
+<script src="js/vendors/backbone-min.js"></script>
+
+<script src="js/vkFriendsWidget.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
